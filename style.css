@@ -1,26 +1,36 @@
 body{
-    font-family: 'Rouge Script', cursive;
+    font-family: 'Rouge Script', cursive; 
     background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
-    margin: 0;
+    margin: 0; 
     padding: 0;
+    /* font-family: 'Dancing Script',cursive;  */
+    font-family:'Style Script',cursive ;
+}
 
-}
-.enseigne{
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-}
-.row{
-    padding: 0;
-    margin: 0;
-}
 p{
     font-size: 30px;
+    font-weight: bold;
 }
-/* voir probleme padding et margin sur */
+h1{
+    /* font-family:'Rouge Script', cursive ; */
+    font-weight: bold; 
+}
+h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.nav-link1{
+    font-weight: bold;
+}
+.nav-link2{
+    font-weight: bold;
+}
+.nav-link3{
+    font-weight: bold;
+}
 /* header */
 header{ 
-     width: 100%; 
+    width: 100%; 
 } 
 #logo{
     display: flex;
@@ -51,62 +61,109 @@ a{
     margin-top: 30px;
 }
 /* / centre page */ 
+.enseigne{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 #boxa{
     display: flex;
     justify-content:center;
     padding-left: 0; 
     padding-right: 0; 
-    margin-top: 100px;
+    margin: 0;
     position: relative;
-    left: 85px;
+    left: 0;
+    right:0;
+}
+#box1{
+    display:flex;
+    justify-content: center;
 }
 #box1 img{
     display: flex;
     justify-content:left;
     border-radius: 5%;
-    width: 60%;
+    width: 60%; 
     height: auto;
-    margin-left: 85px;
+    margin-left:0;
+    padding:0;
 }
 #box2 img{ 
     display: flex;
     justify-content: center;
     border-radius: 5%;
-    width: 60%;
+    width:60%;
     height: auto;
-    margin-right:20px;
+    margin-right:0px;
+    padding: 0;
+}
+#box2{
+    display:flex;
+    justify-content: center;
 }
 #boxb{
     display: flex;
     justify-content: center;
     margin-top: 100px;
     position: relative;
-    left: 170px;
+    left: 0px;
+    padding: 0;
+    right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 100px;
 }
-#box3 img{ 
+#box3{
+    display: flex;
+    justify-content: center;
+}
+#box3 img{
     border-radius: 5%;
-    width: 60%;
+    width:60%;
     height: auto;
+    margin: 0;
+    padding: 0;
+}
+#box4 img{ 
+     width: 60%; 
+     height:auto;
+     margin: 0;
+     padding: 0;
+}     
+#box4{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
 }
 #boxc{
     display: flex;
     justify-content: center;
     margin-top: 100px;
+    padding: 0;
+    margin:0;
+
 } 
 #box5{
     display: flex;
     justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 button{
-    height: 50px;
+    height: 50px; 
 }
 #box6{
     display: flex;
     justify-content: center;
+    margin: 0;
+    padding: 0;
 }
- @media(max-width:320px){
-     #boxa img{
-         width: 50%;
+@media(max-width:320px){
+    #boxa img{
+         width: 100%;
          height:auto;
      }
     #logo{
@@ -117,6 +174,7 @@ button{
     #nav{
         display: flex;
         justify-content:center;
+        margin-left: 10px;
         order:2 ;
     }
     .nav-link1{
@@ -129,35 +187,50 @@ button{
     }
     #boxa{   
         display: flex;
-        justify-content:center; 
+        justify-content:center;
+        margin-top: 20px;
         order:3 ;
     }
     #box1 img{
         margin-left:0 ;
 
     }
+    #box2{
+        margin-top: 20px;
+    }
     #boxb{
         display: flex;
         justify-content: center;
-        margin-top: 50px;
+        margin-top: 20px;
+        margin-top: 20px;
         order:4 ;
     }
     #boxc{
         display: flex;
         justify-content: center;
         order:5 ;
+        margin-left: 10px;
     }
-    #footer{
+    #box3 img{
+        width: 100%;
+    }
+    #box4 img{
+         margin-top: 20px;
+    }
+    #box4{
+        margin-top: 20px;
+    }
+    /* footer */
+#footer{
     display: flex;
     justify-content: center;
     order: 6;
     }
-}   
+} 
 .footer{
     width: 100%;
 }
-.footer
-{
+.footer{
     padding-top: 40px;
     display: flex;
     align-items: center;
@@ -167,9 +240,24 @@ button{
     padding-top: 20px;
 }
  /* .modal  */
-
 .btn{
     background-color:#e6b980;
     border-color: black;
     color: black;
+    font-weight: bold;
+}
+.nav-link1:hover{
+    color:#c72c48;
+}
+.nav-link2:hover{
+    color: #c72c48;
+}
+.nav-link3:hover{
+    color: #c72c48;
+}
+ h1:hover{
+     color:#c72c48;
+}
+.paiements{
+    display: flex;
 }
