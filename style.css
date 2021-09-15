@@ -3,13 +3,14 @@ body{
     background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
     margin: 0; 
     padding: 0;
-    /* font-family: 'Dancing Script',cursive;  */
+    /* font-size: 'Merienda One'; */
     font-family:'Style Script',cursive ;
 }
 
 p{
-    font-size: 30px;
+    font-size: 23px;
     font-weight: bold;
+    font-family:'Merienda One';
 }
 h1{
     /* font-family:'Rouge Script', cursive ; */
@@ -76,6 +77,7 @@ a{
     position: relative;
     left: 0;
     right:0;
+    margin-top: 20px;
 }
 #box1{
     display:flex;
@@ -245,6 +247,9 @@ button{
     border-color: black;
     color: black;
     font-weight: bold;
+    font-family: 'Merienda One';
+    margin-top:10px ;
+    margin-bottom: 10px;
 }
 .nav-link1:hover{
     color:#c72c48;
@@ -260,4 +265,21 @@ button{
 }
 .paiements{
     display: flex;
+    /* margin-bottom: 10px; */
+}
+#remonte{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+.reseaux{
+    font-display:flex ;
+    justify-content: flex-end;
+}
+.wifi{
+    height: 36px;
+}
+.online{
+    margin-top: 10px;
 }
