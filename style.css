@@ -5,6 +5,7 @@ body{
 
     font-family:'Style Script',cursive ;
 }
+/* écriture  texte */
 p{
     font-size: 23px;
     font-weight: bold;
@@ -18,11 +19,14 @@ h2{
     font-size: 40px;
     font-weight: bold;
 }
+/* bouton lien */
 .modal-body{
     font-family: 'Merienda One';
     font-weight: bold;
     background-color: #c72c48;
 }
+/* header */
+/* écriture nav */
 .nav-link1{
     font-weight: bold;
 }
@@ -36,6 +40,7 @@ h2{
 header{ 
     width: 100%; 
 } 
+/* logo */
 #logo{
     display: flex;
     justify-content: center;
@@ -43,10 +48,12 @@ header{
     padding-left: 10px;
     margin-top: 30px;
 }
+/* ecriture bouton lien */
 a{
     color: black;
     text-decoration:none;
 }
+/* position nav */
 .nav-link1{
     position: relative;
     right: 240px;
@@ -65,12 +72,13 @@ a{
     margin-top: 30px;
 }
 /* / centre page */ 
-.enseigne{
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
+/* .enseigne{ */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* margin-top: 30px; */
+    /* margin-bottom: 30px; */
+/* } */
+/* premiere ligne */
 #boxa{
     display: flex;
     justify-content:center;
@@ -108,6 +116,7 @@ a{
     display:flex;
     justify-content: center;
 }
+/* deuxieme ligne */
 #boxb{
     display: flex;
     justify-content: center;
@@ -143,6 +152,7 @@ a{
     align-items: center;
     flex-direction: column;
 }
+/* troisieme ligne */
 #boxc{
     display: flex;
     justify-content: center;
@@ -167,6 +177,7 @@ button{
     margin: 0;
     padding: 0;
 }
+/* responsive */
 @media(max-width:320px){
     #boxa img{
          width: 100%;
@@ -267,16 +278,19 @@ button{
  h1:hover{
      color:#c72c48;
 }
+/* logo paiement */
 .paiements{
     display: flex;
 
 }
+/* ancre */
 #remonte{
     width: 100%;
     display: flex;
     justify-content: flex-end;
     margin-right: 20px;
 }
+/* reseau */
 .reseaux{
     font-display:flex ;
     justify-content: flex-end;
@@ -291,9 +305,11 @@ button{
 .wifi{
     height: 36px;
 }
+/* texte footer */
 .online{
     margin-top: 10px;
 }
+/* musique */
 .musique{
 margin-right: 20px;
 margin-bottom: 20px;
