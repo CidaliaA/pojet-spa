@@ -2,7 +2,6 @@ body{
     background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
     margin: 0; 
     padding: 0;
-
     font-family:'Style Script',cursive ;
 }
 /* écriture  texte */
@@ -55,13 +54,13 @@ a{
 }
 /* position nav */
 .nav-link1{
-    position: relative;
-    right: 240px;
+    /* position: relative; */
+    /* right: 240px; */
     padding-right: 10px;
 }
 .nav-link3{
-    position: relative;
-    left: 240px;
+    /* position: relative; */
+    /* left: 240px; */
     padding-left: 10px;
 }
 #nav{
