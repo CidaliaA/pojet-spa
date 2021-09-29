@@ -4,6 +4,9 @@ body{
     padding: 0;
     font-family:'Style Script',cursive ;
 }
+html{
+    scroll-behavior: smooth;
+}
 /* écriture  texte */
 p{
     font-size: 23px;
@@ -17,6 +20,9 @@ h1{
 h2{
     font-size: 40px;
     font-weight: bold;
+}
+u{
+    text-decoration: underline;
 }
 /* bouton lien */
 .modal-body{
@@ -78,88 +84,88 @@ a{
     /* margin-bottom: 30px; */
 /* } */
 /* premiere ligne */
+#text{
+    text-align: center;
+}
 #boxa{
     display: flex;
     justify-content:center;
-    padding-left: 0; 
-    padding-right: 0; 
     margin: 0;
-    position: relative;
-    left: 0;
-    right:0;
-    margin-top: 20px;
+    padding: 0;
+    /* margin-top: 20px; */
 }
 #box1{
     display:flex;
     justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 #box1 img{
     display: flex;
     justify-content:left;
     border-radius: 5%;
-    width: 60%; 
-    height: auto;
-    margin-left:0;
+    width: 50%; 
+    /* height: auto; */
+    /* margin-left:0; */
     padding:0;
+    margin: 0;
 }
 #box2 img{ 
     display: flex;
     justify-content: center;
     border-radius: 5%;
-    width:60%;
-    height: auto;
-    margin-right:0px;
+    width:50%;
+    /* height: auto; */
+    /* margin-right:0px; */
     padding: 0;
+    margin: 0;
 }
 #box2{
     display:flex;
     justify-content: center;
+    padding: 0;
+    margin: 0;
 }
 /* deuxieme ligne */
 #boxb{
     display: flex;
     justify-content: center;
-    margin-top: 100px;
-    position: relative;
-    left: 0px;
+    margin-top: 50px;
     padding: 0;
-    right: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 100px;
+    /* margin-bottom: 50px; */
 }
 #box3{
     display: flex;
     justify-content: center;
+    padding: 0;
+    margin: 0;
 }
 #box3 img{
     border-radius: 5%;
-    width:60%;
-    height: auto;
+    width:50%;
+    /* height: auto; */
     margin: 0;
     padding: 0;
 }
 #box4 img{ 
-     width: 60%; 
+     width: 50%; 
      height:auto;
      margin: 0;
      padding: 0;
+     border-radius: 5%;
 }     
 #box4{
     display:flex;
     justify-content:center;
-    align-items: center;
-    flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 /* troisieme ligne */
 #boxc{
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 50px;
     padding: 0;
-    margin:0;
-    margin-left: 10px;
-
 } 
 #box5{
     display: flex;
@@ -167,16 +173,27 @@ a{
     margin: 0;
     padding: 0;
 }
-button{
-    height: 50px; 
-}
 #box6{
     display: flex;
     justify-content: center;
     margin: 0;
     padding: 0;
 }
+/* placement et taille cheque */
+/* .cheque{
+    width: 5%;
+    height: auto;
+    font-display: flex;
+     /* justify-content: flex-end; */
+/* }  */ 
 /* responsive */
+#musique{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content:center;
+    padding: 0;
+}
 @media(max-width:320px){
     #boxa img{
          width: 100%;
@@ -236,13 +253,13 @@ button{
     #box4{
         margin-top: 20px;
     }
-    /* footer */
-#footer{
+    #footer{
     display: flex;
     justify-content: center;
     order: 6;
     }
 } 
+/* footer */
 .footer{
     width: 100%;
 }
@@ -278,10 +295,10 @@ button{
      color:#c72c48;
 }
 /* logo paiement */
-.paiements{
-    display: flex;
+/* .chequeimg{ */
+    /* width: 10%; */
+    /* height: auto; */
 
-}
 /* ancre */
 #remonte{
     width: 100%;
@@ -318,5 +335,9 @@ justify-content: flex-end;
 .ambiance{
     margin-left: 10px;
     margin-right:10px ;
+}
+.free{
+    display: flex;
+    justify-content: flex-end;
 }
 

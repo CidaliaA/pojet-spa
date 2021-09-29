@@ -1,0 +1,39 @@
+body{
+    background-color:blanchedalmond;
+    margin: 0 auto;
+    font-family:'Style Script',cursive ;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+html{
+    scroll-behavior: smooth;
+}
+#menu{
+    background-color: #c72c48;
+    border-radius: 100px;
+    vertical-align: middle;
+    width: 210px;
+    height: 210px;
+    margin-top: 0;
+    margin-left: 0;
+}
+p{
+    color:black;
+    font-size: 30px;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+h2{
+    font-size: 40px;
+}
+hr{
+
+    border-style: solid;
+    border-width: 1px 0 0 0;
+    width: 200px;
+}
